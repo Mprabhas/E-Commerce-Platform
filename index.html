@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title> Bazaar - Online Store</title>
+    <link href="ecommers.css" rel="stylesheet">
+   </head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">ABHI<span class="logo-highlight">Bazaar</span></a>
+            <nav class="navigation">
+                <a href="#">Home</a>
+                <a href="#">Men's Fashion</a>
+                <a href="#">Women's Fashion</a>
+                <a href="#">Electronics</a>
+                <a href="#">Contact</a>
+            </nav>
+          <div class="header-icons">
+                <a href="#">
+                    <!-- Search Icon -->
+                    <svg xmlns="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                    
+                </a>
+                <a href="#">
+                    <!-- Shopping Cart Icon -->
+                    <svg xmlns="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+                    <span class="cart-count">3</span>
+                </a>
+                <a>
+
+                    <button id="login-btn" class="hidden md:inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700">Login</button>
+                    
+                </a>
+            </div>
+  
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <h1 class="page-title">Featured Products</h1>
+
+            <!-- Product Grid -->
+            <div class="product-grid">
+
+                <!-- Product 1: Saree -->
+                <div class="product-card">
+                    <img src="kurthi 1.jpeg" alt="womens kurtha" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-name">women's kutha</h3>
+                        <p class="product-category">Women's Ethnic Wear</p>
+                        <p class="product-price">₹800</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 2: Kurta -->
+                <div class="product-card">
+                    <img src="kurthi 2.jpeg" alt="womens kurtha" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-name">Designer womens's Kurta</h3>
+                        <p class="product-category">Men's Ethnic Wear</p>
+                        <p class="product-price">₹899</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 3: Jhumkas -->
+                <div class="product-card">
+                    <img src="mens kurtha 1.jpeg" alt="mens kurtha" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-name">men's kurtha</h3>
+                        <p class="product-category">mens Merone blended kurtha</p>
+                        <p class="product-price">₹1599</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 4: Spices -->
+                <div class="product-card">
+                    <img src="mens kurtha 2.jpeg" alt="kurtha" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-name">men's kurtha</h3>
+                        <p class="product-category">white blended mens kurtha </p>
+                        <p class="product-price">₹1,650</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 5: Kolhapuri Chappal -->
+                <div class="product-card">
+                    <img src="headphones 1.jpg" alt="head phones" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-name">boat rockerz  (White Sabre, On the Ear)</h3><br>
+                        <p class="product-category">head phones</p>
+                        <p class="product-price">₹750</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 6: Tea -->
+                <div class="product-card">
+                    <img src="head phone 2.jpg" alt="head phones with ANC" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-name">JBL head phones with ANC</h3>
+                        <p class="product-category">head phones</p>
+                        <p class="product-price">₹16,550</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 7: Bluetooth Speaker -->
+                <div class="product-card">
+                    <img src="head phone 3.jpeg" alt="Bluetooth Speaker" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-name">Portable Bluetooth Speaker</h3>
+                        <p class="product-category">Electronics</p>
+                        <p class="product-price">₹3,200</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 8: Hand-painted Kettle -->
+                <div class="product-card">
+                    <img src="head phone 4.jpeg" alt="Hand-painted Kettle" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-name">BOSE head phones with all time...</h3>
+                        <p class="product-category">electronics</p>
+                        <p class="product-price">₹5,500</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+
+                 <!-- Product 9: Saree -->
+                <div class="product-card">
+                    <img src="saree 1.jpeg" alt="Silk Saree" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-name">Banarasi Silk Saree</h3>
+                        <p class="product-category">Women's Ethnic Wear</p>
+                        <p class="product-price">₹4,999</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 10: Kurta -->
+                <div class="product-card">
+                    <img src="saree 2.jpeg" alt="saree" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-name">paper silk saree</h3>
+                        <p class="product-category">womens's traditional Wear</p>
+                        <p class="product-price">₹2,499</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 11: Jhumkas -->
+                <div class="product-card">
+                    <img src="saree 3.jpeg" alt="sarees" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-name">silk saree</h3>
+                        <p class="product-category">women's ethinic wear</p>
+                        <p class="product-price">₹899</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 12: Spices -->
+                <div class="product-card">
+                    <img src="saree 4.jpeg" alt="saree" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-name">white saree with blouse</h3>
+                        <p class="product-category">women ware</p>
+                        <p class="product-price">₹1,250</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 13: Kolhapuri Chappal -->
+                <div class="product-card">
+                    <img src="shirt 1.jpeg" alt="shirt" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-name">men's blue plain shirt </h3>
+                        <p class="product-category">mens wear</p>
+                        <p class="product-price">₹750</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 14: Tea -->
+                <div class="product-card">
+                    <img src="shirt 2.jpeg" alt="mens wear" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-name">pink plain shirt for mens</h3>
+                        <p class="product-category">mens wear</p>
+                        <p class="product-price">₹1,550</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 15: Bluetooth Speaker -->
+                <div class="product-card">
+                    <img src="shirt 3.jpeg" alt="shirt" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-name">designed mens shirt</h3>
+                        <p class="product-category">mens wear</p>
+                        <p class="product-price">₹1,100</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 16: Hand-painted Kettle -->
+                <div class="product-card">
+                    <img src="shirt 4.jpeg" alt="shirt" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-name">men;s white shirt</h3>
+                        <p class="product-category">mens wear</p>
+                        <p class="product-price">₹1,500</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+       
+                 <!-- Product 17: Saree -->
+                <div class="product-card">
+                    <img src="speakers 1.jpeg" alt="Speaker" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-name">sony Portable Bluetooth Speaker</h3>
+                        <p class="product-category">electronic gadget</p>
+                        <p class="product-price">₹7,999</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 18: Kurta -->
+                <div class="product-card">
+                    <img src="speaker 2.jpeg" alt="speaker" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-name">sonos bluetooth speaker</h3>
+                        <p class="product-category">electronics</p>
+                        <p class="product-price">₹2,499</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 19: Jhumkas -->
+                <div class="product-card">
+                    <img src="speaker 3.jpeg" alt="speaker" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-name">portable speaker</h3>
+                        <p class="product-category">speakers</p>
+                        <p class="product-price">₹1,100</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 20: Spices -->
+                <div class="product-card">
+                    <img src="speaker 4.jpeg" alt="speaker" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-name">mivi Bluetooth speaker</h3>
+                        <p class="product-category">electronic device</p>
+                        <p class="product-price">₹1,250</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 21: Kolhapuri Chappal -->
+                <div class="product-card">
+                    <img src="speaker 5.jpeg" alt="speaker" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-name">Blue Bluetooth speaker</h3>
+                        <p class="product-category">speaker</p>
+                        <p class="product-price">₹1,750</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 22: Tea -->
+                <div class="product-card">
+                    <img src="mens kurtha 5.jpeg" alt="mens kurtha" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-name">Premium men's kurtha</h3>
+                        <p class="product-category">mens wear</p>
+                        <p class="product-price">₹1,550</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 23: Bluetooth Speaker -->
+                <div class="product-card">
+                    <img src="bag 5.jpeg" alt="bag" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-name">stylish green bag</h3>
+                        <p class="product-category">bags</p>
+                        <p class="product-price">₹1,200</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 24: Hand-painted Kettle -->
+                <div class="product-card">
+                    <img src="ear rings 1.jpeg" alt="ear rings" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-name">gold plated jumkas for women</h3>
+                        <p class="product-category">women's wearr</p>
+                        <p class="product-price">₹500</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+
+                 <!-- Product 25: Saree -->
+                <div class="product-card">
+                    <img src="ear rings 2.jpeg" alt="ear rings" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-name">simple women's ear rings</h3>
+                        <p class="product-category">Women's ear Wear</p>
+                        <p class="product-price">₹999</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 26: Kurta -->
+                <div class="product-card">
+                    <img src="ear rings 3.jpeg" alt="ear rings" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-name">gold plated jumkas</h3>
+                        <p class="product-category">ear Wear</p>
+                        <p class="product-price">₹499</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 27: Jhumkas -->
+                <div class="product-card">
+                    <img src="ear rings 4.jpeg" alt="Jhumka Earrings" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-name">white diamond ear rings for women</h3>
+                        <p class="product-category">Jewellery</p>
+                        <p class="product-price">₹899</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 28: Spices -->
+                <div class="product-card">
+                    <img src="bags 1.jpeg" alt="bags" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-name">sky bag blue colour college bag</h3>
+                        <p class="product-category">Bag</p>
+                        <p class="product-price">₹1,250</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 29: Kolhapuri Chappal -->
+                <div class="product-card">
+                    <img src="bags 2.jpeg" alt="Kolhapuri Chappal" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-name">Handcrafted Kolhapuri Chappal</h3>
+                        <p class="product-category">Footwear</p>
+                        <p class="product-price">₹750</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 30: Tea -->
+                <div class="product-card">
+                    <img src="bags 3.jpeg" alt="bags" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-name">Premium sky bag's bag in greaen colour</h3>
+                        <p class="product-category">Bag</p>
+                        <p class="product-price">₹950</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 31: Bluetooth Speaker -->
+                <div class="product-card">
+                    <img src="bags 4'.jpeg" alt="bags" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-name">sky bags sky blue colord bag</h3>
+                        <p class="product-category">Bag</p>
+                        <p class="product-price">₹3,200</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 32: Hand-painted Kettle -->
+                <div class="product-card">
+                    <img src="ear buds 4.jpeg" alt="ear buds" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-name">oneplus wire less bluetooth ear buds</h3>
+                        <p class="product-category">earbuds</p>
+                        <p class="product-price">₹1,500</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 ABHIBazaar. Made with ❤️ in India.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
